@@ -36,7 +36,7 @@ function displayPics(){
     }
   }
 
-  // Because let is a block scope unlike var, So if we need to console it or invoke it we can only do this inside it's scope .
+  // Because let (rando) came in this situation as block scope (inside while), So if we need to console it or invoke it we can only do this inside it's scope .
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
