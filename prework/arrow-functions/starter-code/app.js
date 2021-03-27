@@ -238,4 +238,4 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 // When we invoked joe.scopeArrow(), this will refer to the window properties not to the student object (because it's an arrow function) .
 // 3. Explain why "this" is different when an arrow function is used.
-// Because Arrow function does not have their own this ,So it is referring to the window of the browser not to the object it-self .
+// Because Arrow function does not have its own this ,So it is referring to the window of the browser not to the object it-self .
